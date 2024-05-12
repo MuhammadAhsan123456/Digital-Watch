@@ -30,4 +30,54 @@ button{
     height: 80vh;
     gap: 1rem;
 }
+
+
+@media only screen and (min-width: 300px) and (max-width: 500px)  {
+    div{
+        background-color: green;
+    }  
+    h1 span{
+        background-color: gray;
+        width: 100px;
+        font-size: 8rem;
+        padding: 4px 10px;
+        border-radius: 5px;
+        color: white;
+        margin: 5px 0px;
+    }
+    button{
+        padding: 5px 10px;
+        border-radius: 5px;
+        border: none;
+        background-color: black;
+        color: white;
+        font-weight: bold;
+        font-size: 1.2rem;
+        cursor: pointer;
+        width: 5.5rem;
+    }
+}
+
+@media only screen and (min-width: 100px) and (max-width: 300px)  {
+    h1 span{
+        background-color: gray;
+        width: 100px;
+        font-size: 6rem;
+        padding: 2px 5px;
+        border-radius: 5px;
+        color: white;
+        margin: 5px 0px;
+    }
+    button{
+        padding: 5px 10px;
+        border-radius: 5px;
+        border: none;
+        background-color: black;
+        color: white;
+        font-weight: bold;
+        font-size: 1.2rem;
+        cursor: pointer;
+        width: 4rem;
+    }
+}
     
